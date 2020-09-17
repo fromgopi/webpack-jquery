@@ -1,0 +1,36 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "Simple app created with Webpack/React and MaterialUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fromgopi/webpack-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fromgopi/webpack-react/issues"
+  },
+  "homepage": "https://github.com/fromgopi/webpack-react#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
